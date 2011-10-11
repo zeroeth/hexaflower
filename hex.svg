@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="600px" width="600px" viewBox="0 0 5.3 5.3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="hexpetal" transform="rotate(90)">
+    <polygon points="0.0,1.0 0.866025403784439,0.5 0.866025403784439,-0.5 1.22464679914735e-16,-1.0 -0.866025403784438,-0.5 -0.866025403784439,0.499999999999999"/>
+    </g>
+  </defs>
+  <style type="text/css">
+    <![CDATA[
+      .petal { stroke:#2e3436; stroke-width:1%; }
+      .p0 { fill:#2E3436; } 
+      .p1 { fill:#888A85; }
+      .p2 { fill:#AD7FA8; }
+      .p3 { fill:#729FCF; }
+      .p4 { fill:#8AE234; }
+      .p5 { fill:#FCAF3E; }
+      .p6 { fill:#EF2929; }
+    ]]>
+  </style>
+
+  <g transform="translate(2.65,2.65)">
+    <use xlink:href="#hexpetal" class="p0 petal" x="0" y="0"/>
+    <use xlink:href="#hexpetal" class="p4 petal" x="0" y="1.73205080756888"/>
+    <use xlink:href="#hexpetal" class="p1 petal" x="0" y="-1.73205080756888"/>
+    <g transform="translate(-1.5,-0.866025403784439)">
+      <use xlink:href="#hexpetal" class="p6 petal" x="0" y="0"/>
+      <use xlink:href="#hexpetal" class="p5 petal" x="0" y="1.73205080756888"/>
+      <g transform="translate(3,0)">
+        <use xlink:href="#hexpetal" class="p2 petal" x="0" y="0"/>
+        <use xlink:href="#hexpetal" class="p3 petal" x="0" y="1.73205080756888"/>
+      </g>
+    </g>
+  </g>
+</svg>
