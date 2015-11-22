@@ -13,8 +13,8 @@
   </defs>
   <style type="text/css">
     <![CDATA[
-      .petal { stroke:#2e3436; stroke-width:1%; }
-      .p0 { fill:#2E3436; } 
+      .petal { stroke:#2e3436; stroke-width:0.05; }
+      .p0 { fill:#2E3436; }
       .p1 { fill:#888A85; }
       .p2 { fill:#AD7FA8; }
       .p3 { fill:#729FCF; }
